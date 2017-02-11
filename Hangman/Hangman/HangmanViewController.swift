@@ -47,7 +47,6 @@ class HangmanViewController: UIViewController {
     }
     */
     @IBAction func userDidPressLetter(_ sender: UIButton) {
-        hangManImage.image = #imageLiteral(resourceName: "hangman2")
         currentGuess = getLetterFromIndex(sender.tag)
         currentGuessButton = sender
         if let guess = currentGuess {
@@ -80,6 +79,7 @@ class HangmanViewController: UIViewController {
     func updateIncorrectGuessesUI() -> Void {
         let formattedStr = incorrectGuesses.joined(separator: ", ")
         incorrectGuessesLabel.text = "Incorrect Guesses: \(formattedStr)"
+        hangManImage.image = UIImage(named: "hangman\(incorrectGuesses.count)")
     }
     
     func disableGuessButton() -> Void {
