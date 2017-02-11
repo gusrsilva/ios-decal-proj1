@@ -83,8 +83,9 @@
                                     <action selector="userDidPressLetter:" destination="33m-bG-32Y" eventType="touchUpInside" id="K8F-6E-6DL"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="7" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="and-wp-U1B">
+                            <button opaque="NO" tag="7" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="and-wp-U1B">
                                 <rect key="frame" x="312" y="372" width="45" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="0.53611943493150682" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="G"/>
                                 <connections>
@@ -257,7 +258,7 @@
                                 <rect key="frame" x="265" y="531" width="45" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="0.53611943493150682" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="U"/>
+                                <state key="normal" title="Z"/>
                                 <connections>
                                     <action selector="userDidPressLetter:" destination="33m-bG-32Y" eventType="touchUpInside" id="gUB-KK-ayn"/>
                                 </connections>
@@ -283,7 +284,6 @@
                             <constraint firstItem="L0c-C6-cge" firstAttribute="leading" secondItem="xKS-yl-l6T" secondAttribute="leadingMargin" constant="-8" id="QQi-kS-1ZB"/>
                             <constraint firstItem="XL3-b5-BLZ" firstAttribute="centerX" secondItem="L0c-C6-cge" secondAttribute="centerX" id="RfE-fc-a04"/>
                             <constraint firstAttribute="trailingMargin" secondItem="L0c-C6-cge" secondAttribute="trailing" constant="-7" id="YCd-wM-Nwx"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="and-wp-U1B" secondAttribute="trailing" constant="2" id="wKr-li-saE"/>
                             <constraint firstItem="L0c-C6-cge" firstAttribute="top" secondItem="fga-sG-nzY" secondAttribute="bottom" constant="-11" id="xEY-0T-8fH"/>
                         </constraints>
                     </view>
