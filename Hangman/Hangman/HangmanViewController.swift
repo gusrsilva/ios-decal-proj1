@@ -28,7 +28,6 @@ class HangmanViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        phrase = "DOE MEMORIAL LIBRARY"
         disableGuessButton()
         updatePhraseUI()
         updateIncorrectGuessesUI()
