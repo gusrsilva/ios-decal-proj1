@@ -10,6 +10,8 @@ import UIKit
 
 class HangmanViewController: UIViewController {
     
+    let alphabetString = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+    
     @IBOutlet weak var hangManImage: UIImageView!
     @IBOutlet weak var incorrectGuessesLabel: UILabel!
     @IBOutlet weak var guessButton: UIButton!
@@ -19,16 +21,16 @@ class HangmanViewController: UIViewController {
     var currentGuess: String!
     var incorrectGuesses = [String]()
     var correctGuesses: [String] = [" "]
+    var disabledButtons = [UIButton]()
 
     var phrase: String = HangmanPhrases().getRandomPhrase()
-    
-    let alphabetString = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
     
 
     override func viewDidLoad() {
         super.viewDidLoad()
         disableGuessButton()
         updatePhraseUI()
+        updateIncorrectGuessesUI()
     }
 
     override func didReceiveMemoryWarning() {
@@ -68,7 +70,9 @@ class HangmanViewController: UIViewController {
                 updateIncorrectGuessesUI()
             }
             currentGuessButton.isEnabled = false
+            disabledButtons.append(currentGuessButton)
             disableGuessButton()
+            endGameIfNecessary()
         }
     }
     
@@ -79,7 +83,7 @@ class HangmanViewController: UIViewController {
     func updateIncorrectGuessesUI() -> Void {
         let formattedStr = incorrectGuesses.joined(separator: ", ")
         incorrectGuessesLabel.text = "Incorrect Guesses: \(formattedStr)"
-        hangManImage.image = UIImage(named: "hangman\(incorrectGuesses.count)")
+        hangManImage.image = UIImage(named: "hangman\(incorrectGuesses.count + 1)")
     }
     
     func disableGuessButton() -> Void {
@@ -99,5 +103,47 @@ class HangmanViewController: UIViewController {
             }
         }
         currentPhraseLabel.text = newPhraseArray.joined(separator: " ")
+    }
+    
+    func endGameIfNecessary() -> Void {
+        if(incorrectGuesses.count >= 6) {
+            // User Lost
+            showGameOverAlert(didWin: false)
+            return
+        }
+        
+        if let currentPhrase = currentPhraseLabel.text {
+            if !currentPhrase.contains("-") {
+                showGameOverAlert(didWin: true)
+                return
+            }
+        }
+    }
+    
+    func showGameOverAlert(didWin: Bool) -> Void {
+        let alertTitle = (didWin ? "Nice!": "Aww man!")
+        let alertMessage = (didWin ? "You correctly guessed the phrase!": "You weren't able to guess the phrase: \(phrase)")
+        
+        let alert: UIAlertController = UIAlertController(title: alertTitle, message: alertMessage, preferredStyle: UIAlertControllerStyle.alert)
+        alert.addAction(UIAlertAction(title: "New Game", style: .default, handler: { action in
+            switch action.style{
+            default:
+                self.startNewGame()
+            }
+        }))
+        self.present(alert, animated: true, completion: nil)
+    }
+    
+    func startNewGame() -> Void {
+        for button in disabledButtons {
+            button.isEnabled = true
+        }
+        currentGuessButton = nil
+        currentGuess = nil
+        incorrectGuesses = [String]()
+        correctGuesses = [" "]
+        disabledButtons = [UIButton]()
+        phrase = HangmanPhrases().getRandomPhrase()
+        viewDidLoad()
     }
 }
