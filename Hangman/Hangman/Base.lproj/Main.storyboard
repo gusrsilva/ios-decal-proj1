@@ -29,7 +29,7 @@
                                     <constraint firstAttribute="height" constant="311" id="yPU-l1-paY"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uLT-48-rcf">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uLT-48-rcf">
                                 <rect key="frame" x="18" y="376" width="45" height="43"/>
                                 <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="0.53611943493150682" colorSpace="calibratedRGB"/>
                                 <constraints>
@@ -41,7 +41,7 @@
                                     <action selector="userDidPressLetter:" destination="33m-bG-32Y" eventType="touchUpInside" id="Pov-iX-Rl5"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q6f-Xq-ujm">
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q6f-Xq-ujm">
                                 <rect key="frame" x="67" y="376" width="45" height="43"/>
                                 <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="0.53611943493150682" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="B"/>
@@ -49,7 +49,7 @@
                                     <action selector="userDidPressLetter:" destination="33m-bG-32Y" eventType="touchUpInside" id="dRE-4C-kYa"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P56-aI-o1X">
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P56-aI-o1X">
                                 <rect key="frame" x="116" y="376" width="45" height="43"/>
                                 <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="0.53611943493150682" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="C"/>
@@ -57,7 +57,7 @@
                                     <action selector="userDidPressLetter:" destination="33m-bG-32Y" eventType="touchUpInside" id="zsT-ny-KCc"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6TC-CC-o9J">
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6TC-CC-o9J">
                                 <rect key="frame" x="165" y="376" width="45" height="43"/>
                                 <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="0.53611943493150682" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="D"/>
@@ -65,7 +65,7 @@
                                     <action selector="userDidPressLetter:" destination="33m-bG-32Y" eventType="touchUpInside" id="Px0-AD-9Uc"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="czu-Jc-mQm">
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="czu-Jc-mQm">
                                 <rect key="frame" x="214" y="376" width="45" height="43"/>
                                 <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="0.53611943493150682" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="E"/>
@@ -73,7 +73,7 @@
                                     <action selector="userDidPressLetter:" destination="33m-bG-32Y" eventType="touchUpInside" id="cBa-gU-EJg"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fSP-iI-4a2">
+                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fSP-iI-4a2">
                                 <rect key="frame" x="263" y="376" width="45" height="43"/>
                                 <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="0.53611943493150682" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="F"/>
@@ -81,7 +81,7 @@
                                     <action selector="userDidPressLetter:" destination="33m-bG-32Y" eventType="touchUpInside" id="K8F-6E-6DL"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="and-wp-U1B">
+                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="and-wp-U1B">
                                 <rect key="frame" x="312" y="376" width="45" height="43"/>
                                 <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="0.53611943493150682" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="G"/>
@@ -89,7 +89,7 @@
                                     <action selector="userDidPressLetter:" destination="33m-bG-32Y" eventType="touchUpInside" id="d9c-rR-Z13"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zka-pE-bgI">
+                            <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zka-pE-bgI">
                                 <rect key="frame" x="18" y="429" width="45" height="43"/>
                                 <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="0.53611943493150682" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="H"/>
@@ -97,7 +97,7 @@
                                     <action selector="userDidPressLetter:" destination="33m-bG-32Y" eventType="touchUpInside" id="jku-hi-0gz"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z8e-Bi-7af">
+                            <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z8e-Bi-7af">
                                 <rect key="frame" x="67" y="429" width="45" height="43"/>
                                 <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="0.53611943493150682" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="I"/>
@@ -105,7 +105,7 @@
                                     <action selector="userDidPressLetter:" destination="33m-bG-32Y" eventType="touchUpInside" id="vzk-pC-CJO"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jry-YH-aiJ">
+                            <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jry-YH-aiJ">
                                 <rect key="frame" x="116" y="429" width="45" height="43"/>
                                 <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="0.53611943493150682" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="J"/>
@@ -113,7 +113,7 @@
                                     <action selector="userDidPressLetter:" destination="33m-bG-32Y" eventType="touchUpInside" id="d8h-fD-nPJ"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GgV-Lf-08T">
+                            <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GgV-Lf-08T">
                                 <rect key="frame" x="165" y="429" width="45" height="43"/>
                                 <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="0.53611943493150682" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="K"/>
@@ -121,7 +121,7 @@
                                     <action selector="userDidPressLetter:" destination="33m-bG-32Y" eventType="touchUpInside" id="vmS-Ob-jtf"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="12" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gio-ZP-nYJ">
+                            <button opaque="NO" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gio-ZP-nYJ">
                                 <rect key="frame" x="214" y="429" width="45" height="43"/>
                                 <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="0.53611943493150682" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="L"/>
@@ -129,7 +129,7 @@
                                     <action selector="userDidPressLetter:" destination="33m-bG-32Y" eventType="touchUpInside" id="OvJ-jX-jvj"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="13" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V5W-BP-6e4">
+                            <button opaque="NO" tag="12" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V5W-BP-6e4">
                                 <rect key="frame" x="263" y="429" width="45" height="43"/>
                                 <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="0.53611943493150682" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="M"/>
@@ -137,7 +137,7 @@
                                     <action selector="userDidPressLetter:" destination="33m-bG-32Y" eventType="touchUpInside" id="CEw-vB-RGZ"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="14" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cOp-58-CWn">
+                            <button opaque="NO" tag="13" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cOp-58-CWn">
                                 <rect key="frame" x="312" y="429" width="45" height="43"/>
                                 <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="0.53611943493150682" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="N"/>
@@ -145,55 +145,55 @@
                                     <action selector="userDidPressLetter:" destination="33m-bG-32Y" eventType="touchUpInside" id="ZYk-Kg-yYR"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="15" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zLf-ja-eCc">
-                                <rect key="frame" x="18" y="478" width="45" height="45"/>
+                            <button opaque="NO" tag="14" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zLf-ja-eCc">
+                                <rect key="frame" x="18" y="482" width="45" height="43"/>
                                 <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="0.53611943493150682" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="O"/>
                                 <connections>
                                     <action selector="userDidPressLetter:" destination="33m-bG-32Y" eventType="touchUpInside" id="z1i-ah-BAJ"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="16" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LZq-yD-IU5">
-                                <rect key="frame" x="66" y="478" width="45" height="45"/>
+                            <button opaque="NO" tag="15" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LZq-yD-IU5">
+                                <rect key="frame" x="67" y="482" width="45" height="43"/>
                                 <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="0.53611943493150682" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="P"/>
                                 <connections>
                                     <action selector="userDidPressLetter:" destination="33m-bG-32Y" eventType="touchUpInside" id="15F-sG-RB8"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="17" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VxK-7i-FAg">
-                                <rect key="frame" x="115" y="478" width="45" height="45"/>
+                            <button opaque="NO" tag="16" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VxK-7i-FAg">
+                                <rect key="frame" x="116" y="482" width="45" height="43"/>
                                 <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="0.53611943493150682" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Q"/>
                                 <connections>
                                     <action selector="userDidPressLetter:" destination="33m-bG-32Y" eventType="touchUpInside" id="TyG-12-kBL"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="18" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qKl-5L-tKQ">
-                                <rect key="frame" x="164" y="478" width="45" height="45"/>
+                            <button opaque="NO" tag="17" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qKl-5L-tKQ">
+                                <rect key="frame" x="165" y="482" width="45" height="43"/>
                                 <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="0.53611943493150682" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="R"/>
                                 <connections>
                                     <action selector="userDidPressLetter:" destination="33m-bG-32Y" eventType="touchUpInside" id="jYS-Io-bOW"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="19" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qIj-Qm-ACi">
-                                <rect key="frame" x="213" y="478" width="45" height="45"/>
+                            <button opaque="NO" tag="18" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qIj-Qm-ACi">
+                                <rect key="frame" x="214" y="482" width="45" height="43"/>
                                 <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="0.53611943493150682" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="S"/>
                                 <connections>
                                     <action selector="userDidPressLetter:" destination="33m-bG-32Y" eventType="touchUpInside" id="IS2-Wg-S1n"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="20" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ugH-5F-989">
-                                <rect key="frame" x="262" y="478" width="45" height="45"/>
+                            <button opaque="NO" tag="19" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ugH-5F-989">
+                                <rect key="frame" x="263" y="482" width="45" height="43"/>
                                 <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="0.53611943493150682" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="T"/>
                                 <connections>
                                     <action selector="userDidPressLetter:" destination="33m-bG-32Y" eventType="touchUpInside" id="VBL-Ep-6jS"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="21" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="38T-uG-MRh">
+                            <button opaque="NO" tag="20" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="38T-uG-MRh">
                                 <rect key="frame" x="312" y="482" width="45" height="43"/>
                                 <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="0.53611943493150682" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="U"/>
@@ -201,40 +201,40 @@
                                     <action selector="userDidPressLetter:" destination="33m-bG-32Y" eventType="touchUpInside" id="KkU-OF-qOb"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="22" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Aeh-1V-FQp">
-                                <rect key="frame" x="67" y="531" width="45" height="45"/>
+                            <button opaque="NO" tag="21" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Aeh-1V-FQp">
+                                <rect key="frame" x="67" y="533" width="45" height="43"/>
                                 <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="0.53611943493150682" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="V"/>
                                 <connections>
                                     <action selector="userDidPressLetter:" destination="33m-bG-32Y" eventType="touchUpInside" id="oXe-Gs-jJO"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="23" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P4o-p8-k0F">
-                                <rect key="frame" x="116" y="531" width="45" height="45"/>
+                            <button opaque="NO" tag="22" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P4o-p8-k0F">
+                                <rect key="frame" x="116" y="533" width="45" height="43"/>
                                 <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="0.53611943493150682" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="W"/>
                                 <connections>
                                     <action selector="userDidPressLetter:" destination="33m-bG-32Y" eventType="touchUpInside" id="mN5-xV-Izq"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="24" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hrb-tB-9wP">
-                                <rect key="frame" x="165" y="531" width="45" height="45"/>
+                            <button opaque="NO" tag="23" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hrb-tB-9wP">
+                                <rect key="frame" x="165" y="533" width="45" height="43"/>
                                 <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="0.53611943493150682" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="X"/>
                                 <connections>
                                     <action selector="userDidPressLetter:" destination="33m-bG-32Y" eventType="touchUpInside" id="LAS-Sf-CpO"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="25" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p1E-Et-YiJ">
-                                <rect key="frame" x="214" y="531" width="45" height="45"/>
+                            <button opaque="NO" tag="24" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p1E-Et-YiJ">
+                                <rect key="frame" x="214" y="533" width="45" height="43"/>
                                 <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="0.53611943493150682" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Y"/>
                                 <connections>
                                     <action selector="userDidPressLetter:" destination="33m-bG-32Y" eventType="touchUpInside" id="7B1-DN-oCb"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="26" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SBj-0R-oOC">
-                                <rect key="frame" x="263" y="531" width="45" height="45"/>
+                            <button opaque="NO" tag="25" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SBj-0R-oOC">
+                                <rect key="frame" x="263" y="533" width="45" height="43"/>
                                 <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="0.53611943493150682" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Z"/>
                                 <connections>
@@ -251,6 +251,9 @@
                                 <state key="normal" title="Guess">
                                     <color key="titleColor" white="0.96999999999999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="userDidPressGuess:" destination="33m-bG-32Y" eventType="touchUpInside" id="C2w-tz-cx1"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Incorrect Guesses:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XL3-b5-BLZ">
                                 <rect key="frame" x="115" y="328" width="144" height="24"/>
@@ -375,7 +378,9 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="guessButton" destination="6EH-tY-MEl" id="Yl6-Wy-92A"/>
                         <outlet property="hangManImage" destination="L0c-C6-cge" id="ZuR-kL-Qkt"/>
+                        <outlet property="incorrectGuessesLabel" destination="XL3-b5-BLZ" id="CsR-KS-Q4l"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GJo-zA-LYW" userLabel="First Responder" sceneMemberID="firstResponder"/>
